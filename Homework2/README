@@ -1,0 +1,5 @@
+#Problem1:
+'''
+In the program, if there is an tail pointer when adding a new node, it can be directly added to the end without traversing from the head
+to the last node. Also, the end pointer also speeds up the program running time. 
+'''
