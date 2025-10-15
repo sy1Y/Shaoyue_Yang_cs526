@@ -1,7 +1,7 @@
-#Problem1：I wrote it using both colab and local IDLE complier. It can upload files without the specific file name.
+#Problem1：I wrote it using both colab and local IDLE complier. The colab one in Hw3_Shaoyue Yang.ipynb.
 #Problem2: The input for my test program is: abcab, which is the same as the ppt input.
 #Problem3: The input for my test program is: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, which is the same as the ppt input.
-#Problem4: I wrote it using both colab and local IDLE complier. It can upload files without the specific file name.
+#Problem4: I wrote it using both colab and local IDLE complier. The colab one in Hw3_Shaoyue Yang.ipynb.
 
 For Problem1 and problem4, if you don't want to use colab to test it, my other two Hw3_Problem4.py and Hw3_Problem1.py 
 files can be run in local python without colab.
