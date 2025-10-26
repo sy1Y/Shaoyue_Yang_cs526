@@ -12,4 +12,6 @@ Difficulty：
 In problem 2, what is the minimum number of elements in the array that I need to take so that their sum is greater than T? 
 Besides trying every combination one by one, what is the fastest way to find this.
 
-In problem 3, 
+In problem 3, When we count each point as a "vertex," a triangle may be counted twice at two different vertices, 
+resulting in longer runtimes. How can we ensure it's only counted once? Furthermore, when there are collinear, overlapping,
+or perpendicular repetitions, the algorithm can easily overcount or undercount a triangle. How can we avoid this problem?
