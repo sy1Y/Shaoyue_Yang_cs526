@@ -1,1 +1,15 @@
+#Problem1
+By preorder three traversal, the sequence is A→B→E→H→F→IC→D→G.
+By breadth-first tree traversal, the sequence is A→B→C→D→E→F→G→H→I.
+By post tree traversal, the sequence is H→E→I→F→B→C→G→D→A.
+By in-order tree traversal, the sequence is G→D→B→E→A→C→H→F→I. 
 
+For Problem2 and Problem3, I downloaded the three files and ran the program on each using cmd command 
+and then checked the results. 
+
+-----------------------------------------------------------------------------------
+Difficulty：
+In problem 2, what is the minimum number of elements in the array that I need to take so that their sum is greater than T? 
+Besides trying every combination one by one, what is the fastest way to find this.
+
+In problem 3, 
