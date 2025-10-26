@@ -1,5 +1,5 @@
 #Problem1
-By preorder three traversal, the sequence is A→B→E→H→F→IC→D→G.
+By preorder three traversal, the sequence is A→B→E→H→F→I→C→D→G.
 By breadth-first tree traversal, the sequence is A→B→C→D→E→F→G→H→I.
 By post tree traversal, the sequence is H→E→I→F→B→C→G→D→A.
 By in-order tree traversal, the sequence is G→D→B→E→A→C→H→F→I. 
