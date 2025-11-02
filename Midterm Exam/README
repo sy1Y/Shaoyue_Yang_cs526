@@ -10,6 +10,23 @@ Finally, I uploaded my output as a screenshot.
 Problem1: I started recording the daily snowfall increment from 0. Secondly, I need to ensure the number
 of all possible consecutive three-day within the total number of days. Thus, I think the core of the algorithm is
 that the number of iterations comparing the accumulated snowfall over three days to half of the total snowfall.
-problem2:
-problem3:
-problem4:
+
+problem2:The core of the algorithm is to update the new infection coordinates that appear in each iteration
+within the known number of days and infection coordinates, and this must be within a legal range, namely, it cannot 
+exceed the size of the matrix.Therefore, I used the yield function to return each valid  coordinate in my if
+conditional statement.
+
+problem3:The core idea of my algorithm is to find the longest continuous sequence of aisles that contains at 
+most two different categories of items. To achieve this, I used the sliding window with two pointers(left and right)，
+and the window always represents a valid range of aisles that the shopper can continue shopping in. 
+The main challenge in this problem is to manage when to “drop” categories that exceed the two-basket limit and make 
+sure the algorithm efficiently finds the longest possible segment without checking every possible combination. Using
+a sliding window allows the program to handle this efficiently in linear time, rather than trying all possible starting
+points.
+
+problem4:The core idea of my algorithm is to check whether a given n×n puzzle board follows all the validity rules. 
+To achieve this, my program first reads the input and stores the board as a 2D list. Then it systematically checks 
+three parts:rows，columns, and sub-boards. Thus, I used a function valid_unit() to handle all these checks in a 
+consistent way. The main challenge of this problem is correctly identifying and iterating through all the sub-boards. 
+While checking rows and columns is straightforward, dividing the board into √n × √n regions requires careful indexing 
+and loop control.
