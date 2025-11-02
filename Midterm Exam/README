@@ -1,1 +1,13 @@
+#How to Run:
+I wrote the program using Python idle (compiler) 3.11 and ran it in the Windows terminal (cmd).
+I used the input file provided by Blackboard. For problem1, I used snowfall_input1.txt for testing; 
+For problem2, I used both pandemic_input1.txt and pandemic_input2.txt;
+For problem3, I used both sc_input2.txt and sc_input1.txt;
+For problem4, I used both spg_input1.txt and spg_input2.txt.
+Finally, I uploaded my output as a screenshot.
 
+#The heart of my algorithm
+Problem1:
+problem2:
+problem3:
+problem4:
