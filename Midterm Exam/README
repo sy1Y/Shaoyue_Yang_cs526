@@ -8,8 +8,10 @@ Finally, I uploaded my output as a screenshot.
 
 #The heart of my algorithm
 Problem1: I started recording the daily snowfall increment from 0. Secondly, I need to ensure the number
-of all possible consecutive three-day within the total number of days. Thus, I think the core of the algorithm is
-that the number of iterations comparing the accumulated snowfall over three days to half of the total snowfall.
+of all possible consecutive three-day within the total number of days. Thus, I think the core of the algorithm is 
+figuring out how many iterations it takes to compare the cumulative snowfall over three consecutive days with half 
+of the total snowfall. To avoid being verbose, we don't need to iterate and compare again once more than half of the 
+results appear.
 
 problem2:The core of the algorithm is to update the new infection coordinates that appear in each iteration
 within the known number of days and infection coordinates, and this must be within a legal range, namely, it cannot 
@@ -25,8 +27,7 @@ a sliding window allows the program to handle this efficiently in linear time, r
 points.
 
 problem4:The core idea of my algorithm is to check whether a given n×n puzzle board follows all the validity rules. 
-To achieve this, my program first reads the input and stores the board as a 2D list. Then it systematically checks 
-three parts:rows，columns, and sub-boards. Thus, I used a function valid_unit() to handle all these checks in a 
-consistent way. The main challenge of this problem is correctly identifying and iterating through all the sub-boards. 
-While checking rows and columns is straightforward, dividing the board into √n × √n regions requires careful indexing 
-and loop control.
+To achieve this, my program first reads the input and stores the board as a 2D list. Then it checks three parts:
+rows，columns, and sub-boards. Thus, I used a function valid_unit() to handle all these checks in a consistent way. 
+The main challenge of this problem is correctly identifying and iterating through all the sub-boards. While checking
+rows and columns is straightforward, dividing the board into √n × √n regions requires careful indexing and loop control.
