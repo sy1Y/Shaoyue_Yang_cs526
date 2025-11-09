@@ -23,6 +23,13 @@ In the test part, namely, def main(), values ​​to be added to the BST are ge
 created using add_node(), and then each method of the BST is tested.
 
 #Q2 Algorithm Explanation:
+This solution employs a bottom-up iterative dynamic programming approach. The dynamic programming array (DP array) 
+records the number of valid sequences starting from each position in the Morse code string, counting from the end to 
+the beginning.
+For each position i in the Morse code string, the algorithm iterates through all five vowel Morse code patterns and 
+checks if the current substring matches any vowel pattern. If a match is found, the count at position 
+i + pattern_length is added to dp[i]. The count is then propagated backward along the dynamic programming array.
+
 
 #Q3 Algorithm Explanation:
 This algorithm finds the longest strictly increasing sequence where elements alternate between two input arrays while 
