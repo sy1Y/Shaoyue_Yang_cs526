@@ -1,6 +1,6 @@
 #How to run Q1: just click run
-#How to run Q2:
-#How to run Q3: run it using the following command in the Windows terminal (cmd): python P2.py < "longest_seq1.txt"
+#How to run Q2: run it using the following command in the Windows terminal (cmd): python P2.py < "vowel_input1.txt"
+#How to run Q3: run it using the following command in the Windows terminal (cmd): python P3_longest.py < "longest_seq1.txt"
 
 #Q1 Algorithm Explanation:
 Firstly, I defined the Node class with its init, and way it dispaly(combine two childern of one node with dash, calculate
