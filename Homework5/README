@@ -1,13 +1,14 @@
 #How to run Q1: just click run
+#How to run Q2:
+#How to run Q3: run it using the following command in the Windows terminal (cmd): python P2.py < "longest_seq1.txt"
+
 #Q1 Algorithm Explanation:
 Firstly, I defined the Node class with its init, and way it dispaly(combine two childern of one node with dash, calculate
 how long the line needed for connect parent and children, how fit the dash in different lines and so on). The purpose of
 the Node class is to take an input value and output a node containing that value, whose left and right children are 
 initialized to None. If the node has no children, the value is returned as a string. If the node has children, a binary
 search tree (BST) is returned.
-
 Then I defined the BST class. 
-
 For add_node(), start traversing from the root node. If the tree is empty, the new node becomes the root node. If not
 empty, compare the node values: if smaller, search the left subtree; if larger, search the right subtree. Insert the new 
 node when an empty position is found. Return failure if the value already exists.
@@ -20,3 +21,7 @@ target is found or a null node is reached.
 For print_tree(), print 'The tree is empty' for empty tree, else using the display method in Node class. 
 In the test part, namely, def main(), values ​​to be added to the BST are generated using random numbers, the BST is 
 created using add_node(), and then each method of the BST is tested.
+
+#Q2 Algorithm Explanation:
+
+#Q3 Algorithm Explanation:
