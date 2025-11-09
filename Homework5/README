@@ -25,3 +25,10 @@ created using add_node(), and then each method of the BST is tested.
 #Q2 Algorithm Explanation:
 
 #Q3 Algorithm Explanation:
+This algorithm finds the longest strictly increasing sequence where elements alternate between two input arrays while 
+preserving their original order. The solution uses a dynamic programming approach with two complementary DP arrays: 
+one for sequences ending with elements from array A, and another for sequences ending with elements from array B. Each
+track maintains both the maximum sequence length and parent pointers for reconstruction. 
+For every element pair between the two arrays, the algorithm checks if they can extend each other's sequences while 
+maintaining strict increasing order and alternation. Parent pointers track the sequence path, enabling efficient 
+backtracking to construct the final solution once the maximum length is found.
