@@ -1,1 +1,20 @@
+For Problem1,
+→How to Run: run it using the following command in the Windows terminal (cmd): python P1.py < "Input1.txt"
+→Heart of algorithms:
+In insertion_sort, for each new element encountered, it scans backward through the already-sorted portion to identify the
+correct insertion point. This backward scanning continues until it finds an element smaller than the current one or 
+reaches the beginning of the array, shifting larger elements rightward to create space. 
+In merge_sort, the algorithm repeatedly splitting the input array into halves. During the merge phase, two sorted 
+subarrays are combined into a larger sorted array using a two-pointer comparison. 
+In quick_sort, the algorithm selects a pivot element and partitions the remaining elements into L,E,G and creates a 
+partial ordering. The algorithm then recursively applies the same process to the less-than and greater-than partitions,
+while elements equal to the pivot remain in their final positions. 
+To verify the efficiency of the sorting code, I added the time.time() function to measure the running time of each 
+sorting algorithm and making it easy to compare the performance of different algorithms. Besides, to ensure the 
+correctness of all three sorting algorithms, I use boolean verification to check if the sorted arrays match the results 
+from Python's built-in sorted() function. 
+Through analysis, insertion sort is suitable for situations with small data sizes. Merge sort preserves the original 
+order of equal elements and has stable performance, making it suitable for processing large amounts of data. Quick sort 
+is the fastest general-purpose sorting algorithm and is suitable for handling situations with limited memory.
 
+For Problem2, 
