@@ -18,3 +18,9 @@ order of equal elements and has stable performance, making it suitable for proce
 is the fastest general-purpose sorting algorithm and is suitable for handling situations with limited memory.
 
 For Problem2, 
+→How to Run: run it using the following command in the Windows terminal (cmd): python P2.py < "Input1.txt"
+→Heart of algorithms:
+the algorithm processes numbers through multiple passes, one for each digit position. In each pass, 
+numbers are distributed into 10 buckets (0-9) based on the current digit being examined. Numbers are collected from the
+buckets in ascending order.The process repeats for each subsequent digit position until all digits are processed. 
+Radix sort is suitable for integer data or data that can be converted to an integer representation.
