@@ -24,3 +24,11 @@ the algorithm processes numbers through multiple passes, one for each digit posi
 numbers are distributed into 10 buckets (0-9) based on the current digit being examined. Numbers are collected from the
 buckets in ascending order.The process repeats for each subsequent digit position until all digits are processed. 
 Radix sort is suitable for integer data or data that can be converted to an integer representation.
+
+For Problem3,
+→How to Run: run it using the following command in the Windows terminal (cmd): python gale.py < "marriage_hundred.txt"
+→Heart of algorithms:
+This implementation of the Gale–Shapley algorithm adopts the female-optimal matching while ensuring stability. The 
+essential mechanism operates during the proposal phase: an unmatched woman proposes to a man she prefers; if the man 
+is also unmatched, they form an engagement. If the man is already engaged, he compares the new proposer with his 
+current partner and retains the woman he prefers more, and dissolves his existing engagement.
