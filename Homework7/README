@@ -1,3 +1,14 @@
 →How to run: run it using the following command in the Windows terminal (cmd): python hw7.py < "input.txt"
-→Heart of algorithms:
 
+→Heart of algorithms:
+Define a simple HuffmanNode class to store the character, frequency, and pointers to its left and right child nodes. Internal 
+nodes only store the combined frequency.
+For encoding, the program first reads all input text and uses Counter to count character frequencies. With these counts, it 
+builds the Huffman Tree by repeatedly taking the two smallest nodes from a priority queue, merging them, and putting the new 
+node back in. When only one node remains, that becomes the root.
+The program then generates the Huffman codes by traversing the tree: traversing left adds a "0", traversing right adds a "1", 
+and the leaf nodes record the final codes. Using these codes, the text is converted into a long binary string and saved in the
+compressed.bin file along with the complete encoding table and the length of the encoded data.
+For decoding, the program reads the codebook and rebuilds the tree by inserting each code path starting from a fresh root. Then
+it reads the encoded bits, trims the padding, and decodes them by walking the tree until it reaches leaf nodes. The final 
+reconstructed text is written to reconstructed.txt.
