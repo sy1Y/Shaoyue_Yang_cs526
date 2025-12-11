@@ -1,10 +1,10 @@
 →How to run: run it using the following command in the Windows terminal (cmd): 
 
-→Heart of algorithms:
+→Heart of dam.py algorithms:
 
 →How to run: run it using the following command in the Windows terminal (cmd): python skier.py < "ski_input1.txt"
 
-→Heart of algorithms:
+→Heart of skier.py algorithms:
 This project uses a combination of Depth-First Search (DFS) and memoization. For every position in the matrix, the algorithm 
 attempts to move to any neighbor with a lower altitude, computes how long the resulting path would be, and keeps the best 
 outcome. Once the longest path from a cell is known, it is cached and reused, which reduces the runtime.
