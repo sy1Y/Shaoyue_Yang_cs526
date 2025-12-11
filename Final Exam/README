@@ -5,3 +5,9 @@
 →How to run: run it using the following command in the Windows terminal (cmd): python skier.py < "ski_input1.txt"
 
 →Heart of algorithms:
+This project uses a combination of Depth-First Search (DFS) and memoization. For every position in the matrix, the algorithm 
+attempts to move to any neighbor with a lower altitude, computes how long the resulting path would be, and keeps the best 
+outcome. Once the longest path from a cell is known, it is cached and reused and reduces the runtime.
+The longest_path() function manages the memo table and checks every possible starting point, while dfs(x, y) performs the 
+actual recursive exploration of downhill neighbors. These components provide a solution for finding the longest descending
+ski route. 
