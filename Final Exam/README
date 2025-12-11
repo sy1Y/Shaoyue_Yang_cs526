@@ -1,6 +1,6 @@
-→How to run: run it using the following command in the Windows terminal (cmd): 
+→How to run: run it using the following command in the Windows terminal (cmd): python flood.py < "flood_1.txt"
 
-→Heart of dam.py algorithms:
+→Heart of flood.py algorithms:
 
 →How to run: run it using the following command in the Windows terminal (cmd): python skier.py < "ski_input1.txt"
 
