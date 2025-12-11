@@ -1,11 +1,16 @@
 →How to run: run it using the following command in the Windows terminal (cmd): python flood.py < "flood_1.txt"
 
 →Heart of flood.py algorithms:
+The code uses a max-heap to always repair the largest crack first, following a greedy strategy that minimizes the risk of 
+flood at each step. For every time unit, the program adds new cracks to the heap, repairs one crack, updates the floodwater,
+checks against the threshold, and then increases the size of all remaining cracks by one. By simulating the process step by
+step and prioritizing the most dangerous cracks, the algorithm efficiently determines whether the village remains safe or 
+floods and tracks the maximum floodwater reached.
 
 →How to run: run it using the following command in the Windows terminal (cmd): python skier.py < "ski_input1.txt"
 
 →Heart of skier.py algorithms:
-This project uses a combination of Depth-First Search (DFS) and memoization. For every position in the matrix, the algorithm 
+This program uses a combination of Depth-First Search (DFS) and memoization. For every position in the matrix, the algorithm 
 attempts to move to any neighbor with a lower altitude, computes how long the resulting path would be, and keeps the best 
 outcome. Once the longest path from a cell is known, it is cached and reused, which reduces the runtime.
 The longest_path() function manages the memo table and checks every possible starting point, while dfs(x, y) performs the 
